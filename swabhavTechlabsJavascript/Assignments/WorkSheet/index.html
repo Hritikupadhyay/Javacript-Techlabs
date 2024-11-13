@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Timesheets</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <button class="btn show-search">Show Search</button>
+        <h1>Add Timesheets</h1>
+        <button class="btn add-timesheet" id="addTimesheetBtn">Add Timesheet</button>
+    </header>
+
+    <div id="timesheet-container" class="timesheet-container">
+        <div class="timesheet-row" id="timesheet-template">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>On Leave</th>
+                        <th>Activities</th>
+                    </tr>
+                </thead>
+                <tbody id="form">
+                    <tr>
+                        <td><input type="date" class="date"></td>
+                        <td>
+                            <select class="onLeave">
+                                <option value="No">No</option>
+                                <option value="Yes">Yes</option>
+                            </select>
+                        </td>
+                        <td>
+                            <div class="form-group" id="form">
+                                <label for="project">Project:</label>
+                                <select class="project">
+                               <option>JavaScript</option>
+                               <option>Java Core</option>
+                               <option>Python</option>
+                               <option>Web Development</option> 
+                                </select>
+
+                                <label for="subProject">Sub-Project:</label>
+                                <select class="subProject">
+                                <option>OOPS</option>
+                                <option>Design</option>
+                                <option>Functions</option>
+                                <option>loops</option>
+
+                                </select>
+
+                                <label for="batch">Batch:</label>
+                                <select class="batch">
+                                    <option>LTCE</option>
+                                    <option>VJTI</option>
+                                    <option>DY Patil</option>
+                                    <option>IIT</option>
+
+                                </select>
+                            </div>
+
+                            <div class="form-group" id="form">
+                                <label for="hours">hours needed:</label>
+                                <input type="number" class="hours" min="0" placeholder="3">:
+                                <input type="number" class="minutes" min="0" max="59" placeholder="30">
+                            </div>
+
+                            <div class="form-group" id="form">
+                                <label for="activity">Activity:</label>
+                                <textarea class="activity" placeholder="describe...."></textarea>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="action-buttons">
+        <button class="btn preview" id="previewBtn">Preview</button>
+        <button class="btn delete" id="deleteBtn">Delete</button>
+    </div>
+
+    <div id="previewModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2>Preview Added Timesheets</h2>
+            <table id="previewTable">
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Date</th>
+                        <th>On Leave</th>
+                        <th>Project</th>
+                        <th>Sub-Project</th>
+                        <th>Batch</th>
+                        <th>Activity</th>
+                        <th>Total Hours</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+            <button class="btn add-timesheet">Add Timesheets</button>
+            <button class="btn back" id="backBtn">Back</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Finder - Find Your Perfect Pet</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand rounded-circle" href="#">Petfinder</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Adopt</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Get Involved</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contacts</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="btn-group">
+            <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Adopt/Get involved
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+        </div>
+        <div class="btn-group">
+            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Dogs&Puppies
+            </button>
+            <div class="dropdown-menu dropdown-menu-right">
+                <button class="dropdown-item" type="button">Action</button>
+                <button class="dropdown-item" type="button">Another action</button>
+                <button class="dropdown-item" type="button">Something else here</button>
+            </div>
+        </div>
+        <div class="btn-group">
+            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Cats&Kittens
+            </button>
+            <div class="dropdown-menu dropdown-menu-right">
+                <button class="dropdown-item" type="button">Action</button>
+                <button class="dropdown-item" type="button">Another action</button>
+                <button class="dropdown-item" type="button">Something else here</button>
+            </div>
+        </div>
+        <div class="btn-group">
+            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Other Types of Pets
+            </button>
+            <div class="dropdown-menu dropdown-menu-right">
+                <button class="dropdown-item" type="button">Action</button>
+                <button class="dropdown-item" type="button">Another action</button>
+                <button class="dropdown-item" type="button">Something else here</button>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="hero bg-info text-white text-center p-5"
+        style="background-image: url('https://wallpapers.com/images/featured/dog-wj7msvc5kj9v6cyy.jpg'); background-size: cover; background-position: center;">
+
+        <form class="form-inline justify-content-center mt-4">
+
+            <select class="form-control mr-2">
+                <option value="">Search for breed, location...</option>
+                <option value="dog">Street Dog</option>
+                <option value="cat">Chinese Kitten</option>
+                <option value="rabbit">German Shepherd</option>
+            </select>
+            <select class="form-control mr-2">
+                <option value="">All Types</option>
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+                <option value="rabbit">Rabbit</option>
+            </select>
+            <button type="button" class="btn btn-primary">Search</button>
+        </form>
+        <h1>Find a Loving Pet to Adopt</h1>
+        <p>Browse pets from our network of over 14,500 shelters and rescues.</p>
+
+        </form>
+
+    </section>
+    <!-- <div class="container"> <button id="quizzle-card-dogs" class=""><svg
+                class="QuizzleCard-module--quizzleCardIcon--37335">
+                <use href=""></use>
+            </svg><span class="QuizzleCard-module--quizzleCard-title--8cf7d">Dogs</span></button>
+        <button id="quizzle-card-dogs" class="QuizzleCard-module--quizzleCard-link--96ea7"><svg
+                class="QuizzleCard-module--quizzleCardIcon--37335">
+                <use href="/icons/sprites.svg#IconDogPortrait"></use>
+            </svg><span class="QuizzleCard-module--quizzleCard-title--8cf7d">Cats</span></button>
+        <button id="quizzle-card-dogs" class="QuizzleCard-module--quizzleCard-link--96ea7"><svg
+                class="QuizzleCard-module--quizzleCardIcon--37335">
+                <use href="/icons/sprites.svg#IconDogPortrait"></use>
+            </svg><span class="QuizzleCard-module--quizzleCard-title--8cf7d">Rabbits</span></button>
+    </div> -->
+
+
+    <section class="container mt-5">
+        <h2 class="text-center mb-4">Featured Pets</h2>
+        <div class="row">
+
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/cute-terrier-puppy-sunglasses-posing-outdoors-generative-ai_188544-15484.jpg"
+                        class="card-img-top" alt="Pet Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Buddy</h5>
+                        <p class="card-text">A playful dog looking for a loving home.</p>
+                        <a href="#" class="btn btn-primary">Adopt Buddy</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/1458916/pexels-photo-1458916.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                        class="card-img-top" alt="Pet Image" style="display: flex; width: 100%;">
+                    <div class="card-body">
+                        <h5 class="card-title">jai</h5>
+                        <p class="card-text">A playful dog looking for a loving home.</p>
+                        <a href="#" class="btn btn-primary">Adopt Buddy</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/1960360348/photo/dog-portrait.jpg?s=1024x1024&w=is&k=20&c=6oJPuC_6rg5-RD7YK5uy5uY9ODYtItW5y11VOl3OXs8="
+                        class="card-img-top" alt="Pet Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Beeru</h5>
+                        <p class="card-text">A playful dog looking for a loving home.</p>
+                        <a href="#" class="btn btn-primary">Adopt Buddy</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Browse by Pet Type</h2>
+            <div class="row mt-4 text-center">
+                <div class="col-md-3 mb-4">
+                    <img src="https://images.pexels.com/photos/59523/pexels-photo-59523.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                        alt="Dog" class="img-fluid rounded-circle">
+                    <h5 class="mt-2">Dogs</h5>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <img src="https://images.pexels.com/photos/1870376/pexels-photo-1870376.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                        alt="Cat" class="img-fluid rounded-circle">
+                    <h5 class="mt-2">Cats</h5>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <img src="https://images.pexels.com/photos/2629372/pexels-photo-2629372.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                        alt="Bird" class="img-fluid rounded-circle">
+                    <h5 class="mt-2">Birds</h5>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <img src="https://images.pexels.com/photos/326012/pexels-photo-326012.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                        alt="Rabbit" class="img-fluid rounded-circle">
+                    <h5 class="mt-2">Rabbits</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container mt-5">
+        <h2 class="text-center mb-4">Pet Care Tips & Articles</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://www.shutterstock.com/image-photo/puppy-kitten-rabbit-260nw-426153514.jpg"
+                        class="card-img-top" alt="Blog Image">
+                    <div class="card-body">
+                        <h5 class="card-title">How to Take Care of Your Dog</h5>
+                        <p class="card-text">Learn tips and tricks to keep your dog healthy and happy.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer class="bg-dark text-white mt-5 p-4 text-center">
+        <p>&copy; 2024 Pet Finder. All rights reserved.</p>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#" class="text-white">Privacy Policy</a></li>
+            <li class="list-inline-item"><a href="#" class="text-white">Terms of Use</a></li>
+            <li class="list-inline-item"><a href="contact.html" class="text-white">Contact Us</a></li>
+        </ul>
+    </footer>
+
+
+    <script src="script.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</body>
+
+</html>
